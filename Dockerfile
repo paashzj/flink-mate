@@ -17,4 +17,4 @@ COPY docker-build /opt/sh/flink/mate
 
 WORKDIR /opt/sh/flink
 
-CMD ["/usr/local/bin/dumb-init", "bash", "-vx","/opt/sh/flink/mate/scripts/start.sh"]
+CMD ["/usr/bin/dumb-init", "bash", "-vx","/opt/sh/flink/mate/scripts/start.sh"]
